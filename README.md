@@ -101,3 +101,8 @@ SkyWalking enriches the <a href="https://landscape.cncf.io/landscape=observabili
 
 # License
 [Apache 2.0 License.](LICENSE)
+
+
+# git
+- git remote -v：查看当前仓库远程地址
+- git remote add upstream https://github.com/apache/skywalking.git：添加upstream远程仓库地址
