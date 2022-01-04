@@ -108,4 +108,4 @@ SkyWalking enriches the <a href="https://landscape.cncf.io/landscape=observabili
 - git remote add upstream https://github.com/apache/skywalking.git：添加upstream远程仓库地址
 
 # git
-- conflict with local master
+- conflict with local master.
