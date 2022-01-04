@@ -106,6 +106,8 @@ SkyWalking enriches the <a href="https://landscape.cncf.io/landscape=observabili
 # git
 - git remote -v：查看当前仓库远程地址
 - git remote add upstream https://github.com/apache/skywalking.git：添加upstream远程仓库地址
-
-# git
-- conflict with local master....
+- git checkout -b sync-upstream-master-branch: 切换到新分支
+- git pull upstream master： 同步upstream master代码
+- git checkout master： 切换到master分支
+- git merge sync-upstream-master-branch： 合并新分支代码到master
+- git push origin master： 提交到远程origin master
